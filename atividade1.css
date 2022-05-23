@@ -1,0 +1,129 @@
+
+header{
+    height:80px ;
+    background-color: rgb(108, 129, 167);
+}
+
+.menu{
+    width:1200px ;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px ;
+}
+
+.menu a:hover{
+    background-color: rgb(146, 127, 255);
+    padding:15px ;
+    cursor:text ;
+    border-radius:10px ;
+}
+
+.banner{
+    width:100% ;
+    height:500px ;
+    background-image:url(../imagem/banner.png) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+
+
+.titulo{
+    padding:10px;
+    color: blue;
+    background-color: rgb(83, 171, 226);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+   
+.historia{
+    padding:10px auto;
+    background-color: rgb(172, 207, 228);
+    display: flex;
+    width:100% ;
+}
+
+img{
+    width:290px;
+    height:230px ;
+    margin: 15px;
+}
+
+.sobre{
+    padding:20px;
+    color:rgb(97, 90, 90);
+    font-size:15px ;
+    text-align: justify;
+}
+
+.produtos{
+    padding:40px ;
+    background-color: rgb(172, 207, 228);
+    display: flex;
+    justify-content:space-around;
+    border:2px solid rgb(189, 183, 183) ;
+}
+.paragrafos{
+    display: flex;
+    justify-content:center;
+    color: blue;
+    
+    font-size:20px ;
+}
+
+footer{ 
+    padding:20px ;
+    background-color:rgb(108, 129, 167);
+    
+   
+}
+
+.remove{
+    list-style-type: none;
+}
+
+.links{
+    width:30% ;
+    margin: 10px auto;
+    display: inline-block; 
+}
+
+.links p{
+    margin-left:30px ;
+    color: rgb(35, 21, 223);
+    font-weight: bold;
+}
+
+
+
+.links1{
+    padding-top:10px ;
+    color:white;
+    text-decoration: none;
+    
+}
+
+.linkinicio{
+    display: flex;
+   justify-content:center;
+}
+
+
+   
+
+
+
+
+
+   
+    
